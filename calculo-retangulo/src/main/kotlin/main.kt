@@ -20,9 +20,7 @@ fun toString(shape: Map<String, Any>): String{
 }
 
 fun calcArea(shape : Map<String, Any>) : Int{
-    var width = shape["Width"] as Int;
-    var height = shape["Height"] as Int;
-    var calculoDaArea = width * height;
-
-    return calculoDaArea;
+    val height = shape["Height"] as Int
+    val width = shape["Width"] as Int
+    return height * width;
 }
