@@ -1,6 +1,7 @@
 class Account(
     val titular: String,
-    val conta: Int
+    val conta: Int,
+    val saldoInicial: Double
 ) {
     var saldo = 0.0
     protected set
@@ -29,12 +30,9 @@ class Account(
 
     fun transferencia(valor: Double, conta: Account){
         if (saldo > 0){
-            this.saldo -= valor
-            if(saldo < 0){
-                throw error("valor para tranferência não permitida")
-                this.saldo += valor;}
-            conta.deposita(valor)
-        } else {
+            saque(valor)
+            conta.deposita(valor)}
+        else {
             throw error("saldo em conta insuficiente")
         }
     }
