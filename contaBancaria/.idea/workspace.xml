@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a78dd6-d44e-4aed-8e93-052bbe42c446" name="Changes" comment="" />
+    <list default="true" id="06a78dd6-d44e-4aed-8e93-052bbe42c446" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../animal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Animal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Bird.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Bird.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Dog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Einstein.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Einstein.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Hawk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Hawk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Human.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Human.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Mammal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Mammal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Snake.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Snake.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/Whale.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Whale.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../animal/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/onboarding/Desktop/andre/Treinamento/KOTLIN/estudos-kotlin/Roadmap/contaBancaria"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/onboarding/Desktop/andre/Treinamento/KOTLIN/estudos-kotlin/Roadmap/contaBancaria&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />

@@ -1,13 +1,9 @@
-class Whale {
+class Whale: Mammal() {
+    override fun walkOnEath(): Boolean {
+        return false
+    }
 
-    fun character(): Animal {
-        val character = Animal(
-            walkOnEath = false,
-            canFly = false,
-            swin = true,
-            isAlive = true,
-            layEggs = false
-        )
-        return character
+    override fun canFly(): Boolean {
+        return false
     }
 }

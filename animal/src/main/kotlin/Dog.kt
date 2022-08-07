@@ -1,13 +1,11 @@
-class Dog {
-
-    fun character(): Animal {
-        val character = Animal(
-            walkOnEath = true,
-            canFly = false,
-            swin = true,
-            isAlive = true,
-            layEggs = false
-        )
-        return character
+class Dog: Mammal() {
+    override fun canSwin(): Boolean {
+        return false
     }
+
+    override fun canFly(): Boolean {
+        return false
+    }
+
+
 }
