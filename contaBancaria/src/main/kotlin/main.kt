@@ -2,11 +2,13 @@ fun main(){
     var andreConta = Account(
         titular = "André",
         conta = 1001,
+        saldoInicial = 100
     )
 
     var andreContaPoupança = Account(
         titular = "Andrezinho",
         conta = 1002,
+        saldoInicial = 50
     )
 
     andreConta.deposita(100.0);
