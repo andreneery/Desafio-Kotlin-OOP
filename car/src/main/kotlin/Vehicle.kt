@@ -17,11 +17,4 @@ class Vehicle(val motor: Motor){
         return motor.useFossilFuel() == true || motor.useFlammelFuel() == true
     }
 
-    fun flex(): String{
-        if(motor.isEnvironmentalFriendly() == false && motor.useFlammelFuel() == false &&
-            motor.useFossilFuel() == true){
-            return "gasolina"
-        }else return "alcool"
-    }
-
 }

@@ -30,11 +30,10 @@ fun main(){
     println("Nota de qualidade: ${vehicleHydrogen.quality()}")
     println("Precisa de extintor: ${vehicleHydrogen.extintor()}")
 
-    val flexEngine = FlexEngine()
+    val flexEngine = FlexEngine(option = "alcool")
     val vehicleFlex = Vehicle(flexEngine)
 
     println("\nMotor Flex: ")
-    println("Combustivel utilizado: ${vehicleFlex.flex()}")
     println("Nota de qualidade: ${vehicleFlex.quality()}")
     println("Precisa de extintor: ${vehicleFlex.extintor()}")
 
