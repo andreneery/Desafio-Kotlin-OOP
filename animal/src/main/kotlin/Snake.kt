@@ -1,13 +1,3 @@
-open class Snake {
+class Snake(): Reptile() {
 
-    fun character(): Animal {
-        val character = Animal(
-            walkOnEath = true,
-            canFly = false,
-            swin = false,
-            isAlive = true,
-            layEggs = true
-        )
-        return character
-    }
 }
