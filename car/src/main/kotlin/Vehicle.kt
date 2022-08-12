@@ -14,7 +14,7 @@ class Vehicle(val motor: Motor){
     }
 
     fun extintor(): Boolean{
-        return motor.useFossilFuel() == true || motor.useFlammelFuel() == true
+        return motor.useFossilFuel() || motor.useFlammelFuel()
     }
 
 }
