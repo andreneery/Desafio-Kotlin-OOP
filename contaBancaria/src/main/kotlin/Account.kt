@@ -9,9 +9,14 @@ class Account(
     // a utilizem
 
     fun deposita(valor: Double){
-        if(valor > 0 && valor <= 10_000){
+        
+        if(valor = 0){
             this.saldo += valor + saldoInicial
-        } else{
+        }
+        else if(valor > 0 && valor <= 10_000){
+            this.saldo += valor + saldoInicial
+        } 
+        else{
             throw error("valor não permitido")
         }
     }
