@@ -10,7 +10,7 @@ class Account(
 
     fun deposita(valor: Double){
         if(valor > 0 && valor <= 10_000){
-            this.saldo += valor
+            this.saldo += valor + saldoInicial
         } else{
             throw error("valor não permitido")
         }
