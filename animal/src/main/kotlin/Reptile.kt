@@ -1,4 +1,5 @@
-class Dog: Mammal() {
+open class Reptile(): Animal() {
+
     override fun canSwin(): Boolean {
         return false
     }
@@ -6,6 +7,4 @@ class Dog: Mammal() {
     override fun canFly(): Boolean {
         return false
     }
-
-
 }

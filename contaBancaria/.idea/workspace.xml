@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a78dd6-d44e-4aed-8e93-052bbe42c446" name="Changes" comment="" />
+    <list default="true" id="06a78dd6-d44e-4aed-8e93-052bbe42c446" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Bat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Penguim.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Platypus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../animal/src/main/kotlin/Reptile.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/onboarding/Desktop/andre/Treinamento/KOTLIN/estudos-kotlin/Roadmap/contaBancaria"
+    "last_opened_file_path": "/home/onboarding/Desktop/andre/Treinamento/KOTLIN/estudos-kotlin/Roadmap/animal"
   }
 }]]></component>
   <component name="RunManager">

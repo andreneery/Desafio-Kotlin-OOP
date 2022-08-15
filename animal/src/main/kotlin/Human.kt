@@ -1,14 +1,6 @@
+open class Human(): Mammal() {
 
-
-open class Human{
-    fun character(): Animal {
-        val character = Animal(
-            walkOnEath = true,
-            canFly = false,
-            swin = true,
-            isAlive = true,
-            layEggs = false
-        )
-        return character
+    override fun canFly(): Boolean {
+        return false
     }
 }
